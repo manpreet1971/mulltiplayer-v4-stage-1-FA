@@ -12,14 +12,11 @@ function preload() {
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   database = firebase.database();
-  game = new Game();
-  game.start();
-  bgImg = backgroundImage;
+
+  
+  
 }
 
 function draw() {
-  background(bgImg);
-}
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+ 
 }
